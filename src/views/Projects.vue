@@ -7,17 +7,14 @@
                 <Btn :name="btn[0].name" :href="btn[0].to" />
                 </div>
             </div>
-            <Svg id="box-img" data-aos="fade-in"/>
-        </div>
 
-        <div class="container-presentation">
             <div id="box-text" data-aos="fade-in">
                 <Box-view id="box" :title="boxtext[1].title" :subtitle="boxtext[1].subtitle" />
                 <div id="box-btn" data-aos="fade-in">
                 <Btn :name="btn[1].name" :href="btn[1].to"  />
                 </div>
             </div>
-            <Svg id="box-img" data-aos="fade-in"/>
+           
         </div>
 
         <div class="container-presentation">
@@ -27,7 +24,14 @@
                 <Btn :name="btn[2].name" :href="btn[2].to"  />
                 </div>
             </div>
-            <Svg id="box-img" data-aos="fade-in"/>
+
+            <div id="box-text" data-aos="fade-in">
+                <Box-view id="box" :title="boxtext[3].title" :subtitle="boxtext[3].subtitle" />
+                <div id="box-btn" data-aos="fade-in">
+                <Btn :name="btn[3].name" :href="btn[3].to"  />
+                </div>
+            </div>
+           
         </div>
   </div> 
 </template>
@@ -36,13 +40,11 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import BoxView from '../components/BoxView.vue';
-import Svg from '../components/Svg.vue';
 import Btn from '../components/Btn-glass-link.vue';
 export default {
     name:"Home",
     components:{
         BoxView,
-        Svg,
         Btn,
     },
     created(){
@@ -54,13 +56,16 @@ export default {
             [
               {title:"API de registro", subtitle: "Facilita o processo de autenticação do usuário na sua aplicação e torna ela mais segura."},
               {title:"Agenda de contatos", subtitle: "Uma maneira de organizar seus contatos de forma simples e objetiva."},
-              {title:"Chat real-time", subtitle: "Uma agenda de contatos que possibilita conversa por mensagens de texto em tempo real"},
+              {title:"Chat real-time", subtitle: "Uma agenda de contatos que possibilita conversar por mensagens de texto em tempo real."},
+              {title:"Batalha espacial", subtitle: "Um jogo desenvolvido utilizando Javascript, HTML5 e canvas. Faça o Teste!"},
+
             ],
             btn:
             [ 
               {name: "GitHub", to: "https://github.com/dorneles357/api-authentication-js"},
               {name: "GitHub", to: "https://github.com/dorneles357/agenda-.git"},
               {name: "GitHub", to: "https://github.com/dorneles357/Project-real-time.git"},
+              {name: "GitHub", to: "https://github.com/dorneles357/app-game-introduction"},
             ]
         }
     }
@@ -75,12 +80,17 @@ export default {
 
   .container-presentation{
     margin-bottom: 30px;
-    padding: 15px 0px 15px 0px;
+    padding: 15px 0px 30px 0px;
     display:flex;
     flex-direction: row;
-    height: 500px;
+    max-height: 500px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+  }
+
+  .container-presentation > div {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
   }
 
   #box-btn{
@@ -92,7 +102,7 @@ export default {
 
   /*responsive*/
 
-  @media(max-width: 830px){
+  @media(max-width: 900px){
     .container-presentation{
       flex-direction: column;
       height: auto;
