@@ -13,9 +13,9 @@
                 <div class="btn">
                     <img class="btn-sandwich" :src="btn.btnSandwich" @click="menu($event)">
                 </div>
-                <router-link id="selenrod-logo" to="/" @click="menu($event)">Home</router-link>
-                <router-link class="nav-menu" to="/projects" @click="menu($event)">Projects</router-link>
-                <router-link class="nav-menu" to="/about" @click="menu($event)">About</router-link>
+                <router-link id="selenrod-logo" to="/" @click="menu($event)">Início</router-link>
+                <router-link class="nav-menu" to="/projects" @click="menu($event)">Projetos</router-link>
+                <router-link class="nav-menu" to="/about" @click="menu($event)">Sobre</router-link>
             </div>
         </div>
     </nav> 

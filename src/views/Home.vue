@@ -37,9 +37,9 @@ export default {
             },
             btn: 
             {
-              name1: "Projects",
+              name1: "Projetos",
               to1: "/projects",
-              name2: "About",
+              name2: "Sobre",
               to2:"/about"
             }
         }
