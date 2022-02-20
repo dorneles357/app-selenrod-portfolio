@@ -55,10 +55,10 @@ export default {
       avatar:
       {
         src:"/img/user.jpg",
-        text:`Tive meu primeiro contato com programação em 2016, na Universidade  do pampa (Unipampa), utilizando a linguagem C. 
-        A partir de então,  eu vi que programar é algo fantástico. Principalmente em  processos de automatização. A programação 
-        me ajudou muito e o mais incrivel é que eu tirei essa solução da minha cabeça e tranformei em código. Programar é uma das
-         minhas paixões. Assim como, a Matemática, Fisíca, Astronomia ,filmes de ficção e terrror.`
+        text:`Tive meu primeiro contato com programação em 2016, na Universidade Federal do pampa (Unipampa), utilizando a linguagem C. 
+        A partir de então, eu vi que programar é algo fantástico. Principalmente em  processos de automatização. A programação 
+        me ajudou muito e o mais incrivel é que eu tirei as solução da minha cabeça e tranformei em código. Atualmente sou estudante de Matemática 
+        no IFC campus concórdia. Programar é uma das minhas paixões. Assim como, a Matemática, Fisíca, Astronomia ,filmes de ficção e terrror.`
       },
       boxone:
       {
@@ -92,7 +92,7 @@ export default {
       cardtwo:
       [
         {title:"Fullstack", text:"atuação fullstack é ampla, JS e Node tornam isso algo fácil.", img1:"/img/full.png"},
-        {title:"UI e UX ", text:"A experiência positiva do usuário com a aplicação é fundamental. saber isso tambem.", img1:"/img/website.png"},
+        {title:"UI e UX ", text:"A experiência positiva do usuário com a aplicação é fundamental. saber isso também.", img1:"/img/website.png"},
         {title:"Html e css", text:"Fazer uma página web que agrade seu cliente sem dúvida é muito bom.", img1:"/img/web.png"},
       ]
     }
@@ -112,7 +112,7 @@ export default {
     padding-bottom: 60px;
   }
   #presentaion-panel{
-    width: auto;
+    width: 680px;
     display: flex;
     flex-direction: column;
     align-items: center;
