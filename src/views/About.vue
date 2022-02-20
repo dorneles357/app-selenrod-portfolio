@@ -112,7 +112,7 @@ export default {
     padding-bottom: 60px;
   }
   #presentaion-panel{
-    width: 680px;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,16 +133,26 @@ export default {
     flex-wrap: wrap;
   }
   /*responsive*/
-
-  @media(max-width: 880px){
+  @media(max-width: 1240px){
     .container{
-      margin: 30px 20px 30px 20px; 
+      margin: 30px 20px 30px 20px;
+    }
+    #presentaion-panel{
+      width: 600px;
     }
   }
-    @media(max-width: 830px){
+  @media(max-width: 1080px){
+    #presentaion-panel{
+      width: 540px;
+    }
+  }
+    @media(max-width: 1020px){
     #box-one{
       flex-direction: column;
       align-items: center;
+    }
+    #presentaion-panel{
+      width: auto;
     }
   }
   @media(max-width: 430px){
