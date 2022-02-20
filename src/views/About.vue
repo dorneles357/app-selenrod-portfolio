@@ -55,33 +55,32 @@ export default {
       avatar:
       {
         src:"/img/user.jpg",
-        text:`Tive meu primeiro contato com programação em 2016, na Universidade Federal do pampa (Unipampa), utilizando a linguagem C. 
+        text:`Atualmente sou estudante de Matemática no IFC campus Concórdia.Tive meu primeiro contato com programação em 2016, na Universidade Federal do pampa (Unipampa), utilizando a linguagem C. 
         A partir de então, eu vi que programar é algo fantástico. Principalmente em  processos de automatização. A programação 
-        me ajudou muito e o mais incrivel é que eu tirei as solução da minha cabeça e tranformei em código. Atualmente sou estudante de Matemática 
-        no IFC campus concórdia. Programar é uma das minhas paixões. Assim como, a Matemática, Fisíca, Astronomia ,filmes de ficção e terrror.`
+        me ajudou muito e o mais incrivel é que eu tirei as soluções da minha cabeça e as transformei em código. Programar é uma das minhas paixões. Assim como, a Matemática, a Fisíca, a Astronomia e filmes de ficção e de terrror.`
       },
       boxone:
       {
         title:"Programar é muito legal!",
-        subtitle:`Comecei a programar utilizando a linguagem C para automatizar cálculos. Já utilizei a linguagem R para análise de dados.
+        subtitle:`Comecei a programar com a linguagem C para automatizar cálculos. Já utilizei a linguagem R para análise de dados. Na web, comecei utilizando o PHP.
          Atualmente, me dedico a programação com JS para aplicações web.`
       },
       boxtwo:
       {
         title:"O que me levou a programar para web?",
-        subtitle:`Quando eu entrava em algum site da internet eu fica adimirado com a capacidade dos desenvolvedores em criar sites com uma
+        subtitle:`Quando eu entrava em algum site da internet eu fica admirado com a capacidade dos desenvolvedores em criar páginas com uma
          aprência incrivel e agrádavel. Isso me deixou muito entusiasmado. Adimiro os profissionais que atuam no front-end. Pois, sem dúvida, 
          a interação com o usuário é algo indispensável.`,
       },
       cardone:
       [
         {title:"Javascript e Node Js", 
-        text:`A mais de um ano e meio venho me dedicando ao estudo de Javascript.`,
+        text:`Javascript no front-end e back-end. JS é uma das minhas linguagens preferidas, pois é muito abrangente em seu uso.`,
         img1:"/img/js.png",
         img2:"/img/node.png"},
 
         {title:"Database", 
-        text:`Tenho conhecimentos em postgres, mysql e tambem MongoDB.`,
+        text:`Tenho conhecimentos em postgres, mysql e também em MongoDB.`,
         img1:"/img/database.png",},
 
         {title:"Vue JS", 
@@ -91,7 +90,7 @@ export default {
       ],
       cardtwo:
       [
-        {title:"Fullstack", text:"atuação fullstack é ampla, JS e Node tornam isso algo fácil.", img1:"/img/full.png"},
+        {title:"Fullstack", text:"A atuação fullstack é ampla, porém JS e Node tornam isso algo possível.", img1:"/img/full.png"},
         {title:"UI e UX ", text:"A experiência positiva do usuário com a aplicação é fundamental. saber isso também.", img1:"/img/website.png"},
         {title:"Html e css", text:"Fazer uma página web que agrade seu cliente sem dúvida é muito bom.", img1:"/img/web.png"},
       ]
