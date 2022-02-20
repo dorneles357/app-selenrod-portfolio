@@ -3,7 +3,7 @@
         <div class="box">
         <nav class="nav">
             <a href="https://github.com/dorneles357" target="_blanck" class="nav-link"><ion-icon name="logo-github"></ion-icon></a>
-            <a href="" class="nav-link"><ion-icon name="mail-outline"></ion-icon></a>
+            <a href="mailto:ebenezerdorneles@gmail.com" target="_blanck" class="nav-link"><ion-icon name="mail-outline"></ion-icon></a>
             <a href="https://www.linkedin.com/in/ebedorneles/" target="_blanck" class="nav-link"><ion-icon name="logo-linkedin"></ion-icon></a>
         </nav>
         <nav class="nav">
@@ -24,9 +24,11 @@ export default {
 <style scoped>
 
 #blog-footer{
+    position: absolute;
+    left: 0;
     margin: 0px;
     background: #040614;
-    bottom: 0;
+    
     width: 100%;
     height: 180px;
 }
