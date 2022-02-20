@@ -1,7 +1,7 @@
 <template>
     <nav id="nav-h" class="nav-bar glass">
         <div class="nav-bar">
-            <router-link id="selenrod-logo" to="/">Home</router-link>
+            <router-link id="selenrod-logo" to="/"><img :src="logo.src" width="32"></router-link>
         </div>
 
         <div>
@@ -10,6 +10,7 @@
 
         <div class="menu" id="menu">
             <div id="nav-bar-responsive" class="nav-bar" >
+                <router-link id="selenrod-logo" to="/">Home</router-link>
                 <router-link class="nav-menu" to="/projects" @click="menu($event)">Projects</router-link>
                 <router-link class="nav-menu" to="/about" @click="menu($event)">About</router-link>
             </div>
@@ -27,6 +28,10 @@ export default {
             btn: 
             {
                 btnSandwich:"/img/btn-sandwich.png"
+            },
+            logo:
+            {
+                src:'img/selenrod.png'
             }
         }
     },
