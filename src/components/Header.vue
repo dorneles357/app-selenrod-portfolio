@@ -4,13 +4,16 @@
             <router-link id="selenrod-logo" to="/"><img :src="logo.src" width="32"></router-link>
         </div>
 
-        <div>
-            <img id="btn-sandwich" :src="btn.btnSandwich" @click="menu($event)">
+        <div class="btn">
+            <img class="btn-sandwich" :src="btn.btnSandwich" @click="menu($event)">
         </div>
 
         <div class="menu" id="menu">
             <div id="nav-bar-responsive" class="nav-bar" >
-                <router-link id="selenrod-logo" to="/">Home</router-link>
+                <div class="btn">
+                    <img class="btn-sandwich" :src="btn.btnSandwich" @click="menu($event)">
+                </div>
+                <router-link id="selenrod-logo" to="/" @click="menu($event)">Home</router-link>
                 <router-link class="nav-menu" to="/projects" @click="menu($event)">Projects</router-link>
                 <router-link class="nav-menu" to="/about" @click="menu($event)">About</router-link>
             </div>
@@ -103,7 +106,7 @@ export default {
         display: flex;
     }
 
-    #btn-sandwich{
+    .btn-sandwich{
         display: none;
         width: 32px;
         cursor: pointer;
@@ -129,9 +132,21 @@ export default {
             margin: 0 1px 0 1px; 
         }
         #nav-h > div{
-        margin: 0 1px 0 1px;
+            margin: 0 1px 0 1px;
          }
-        #btn-sandwich{
+        .btn{
+            position: fixed;
+            top:0;
+            right: 0;
+            background: #070A1B;
+            width: 64px;
+            height: 64px;
+            border-radius: 99%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-sandwich{
             display: block;
         }
         #nav-bar-responsive{
@@ -140,9 +155,9 @@ export default {
         }
         #menu{
             display: block; 
-            position: absolute;
+            position: fixed;
             width: 100%;
-            top: 80px;
+            top: 0px;
             right: 0px;
             background:#070A1B;
             height: 0px;
@@ -153,7 +168,7 @@ export default {
         }
 
         #menu.active{
-            height: calc(100vh - 70px);
+            height: calc(100vh - 0px);
             visibility: visible;
             overflow: auto;
     }
