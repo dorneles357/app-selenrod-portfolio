@@ -156,6 +156,7 @@ export default {
         #menu{
             display: block; 
             position: fixed;
+            padding-top: 100px;
             width: 100%;
             top: 0px;
             right: 0px;
