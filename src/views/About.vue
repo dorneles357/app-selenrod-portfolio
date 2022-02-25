@@ -69,7 +69,7 @@ export default {
       {
         title:"O que me levou a programar para web?",
         subtitle:`Quando eu entrava em algum site da internet eu fica admirado com a capacidade dos desenvolvedores em criar páginas com uma
-         aprência incrivel e agrádavel. Isso me deixou muito entusiasmado. Adimiro os profissionais que atuam no front-end. Pois, sem dúvida, 
+         aparência incrível e agrádavel. Isso me deixou muito entusiasmado. Adimiro os profissionais que atuam no front-end. Pois, sem dúvida, 
          a interação com o usuário é algo indispensável.`,
       },
       cardone:
